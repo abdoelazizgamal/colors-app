@@ -22,7 +22,6 @@ const SingleColorPalette = () => {
   ));
   return (
     <div className="SingleColorPalette Palette">
-      {/* Navbar goes here */}
       <Navbar />
       <div className="Palette-colors">
         {colorBoxes}
