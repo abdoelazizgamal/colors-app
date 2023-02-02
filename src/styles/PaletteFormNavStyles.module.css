@@ -1,0 +1,64 @@
+.root {
+  display: flex;
+}
+.root header {
+  flex-direction: row;
+}
+.hide {
+  display: none;
+}
+.appBar {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.menuButton {
+  margin-left: 12px;
+  margin-right: 20px;
+}
+.navBtns {
+  margin-right: 1rem;
+  display: flex;
+  gap: 0 10px;
+}
+.navBtns form {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.navBtns form input {
+  height: 0.4375em;
+  margin-bottom: 7px;
+  color: #fff;
+  border-bottom: 1px solid #ffffff8c;
+}
+.navBtns form label {
+  color: #fff !important;
+}
+.navBtns fieldset {
+  border: none !important;
+}
+.navBtns a {
+  text-decoration: none;
+}
+button {
+  margin: 0 0.5rem;
+}
+@media (max-width: 768px) {
+  .appBar {
+    width: 100% !important;
+  }
+  .create-palette {
+    font-size: 1rem !important;
+  }
+  .appBar button {
+    font-size: 0.7rem !important;
+    margin-right: 0;
+  }
+}
+@media (max-width: 360px) {
+  .create-palette {
+    display: none;
+  }
+}
